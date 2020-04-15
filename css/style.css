@@ -1,0 +1,101 @@
+.bkgrnd {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+#first-page {
+  background: url('../images/i.jpg') 50% 0 repeat-y fixed;
+  height: 100vh;
+  text-align: center;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+#music {
+  position: relative;
+  padding-top: 80px;
+}
+
+.loading:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90px;
+  height: 90px;
+  margin-top: -45px;
+  margin-left: -45px;
+  border-radius: 50%;
+  border: 5px solid white;
+  border-radius: 50%;
+  border-top: 5px solid green;
+  border-right: 5px solid #ffea00;
+  border-bottom: 5px solid red;
+  animation: flag 0.7s linear infinite;
+}
+
+@keyframes flag {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+hr {
+  max-width: 330px;
+  border-color: grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+  font-weight: bolder;
+  border: none;
+  height: 1px;
+  color: #a6a7a8;
+  background-color: #a6a7a8;
+}
+
+.poem {
+  margin: auto;
+}
+
+h1, h2 {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+  padding: 5px;
+  bottom: 10px;
+  left: 25px;
+  background: #c9e6ff;
+  box-shadow: 2px 2px 5px rgba(104, 104, 104, 0.5);
+}
+
+.title-poem {
+  max-width: 1430px;
+}
+
+footer {
+  background: #e6f3ff;
+  box-shadow: 0 0 5px rgba(104, 104, 104, 0.5);
+}
+
+footer p {
+  margin: 0;
+  padding: 15px 0;
+  font-size: 13px;
+}
+
+@media screen and (max-width:767px) {
+  h2 {
+    margin-top: 15px;
+  }
+}
+
